@@ -15,12 +15,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/utsubo/astro-remove-whitespace.git"
+    "url": "git+https://github.com/utsuboco/astro-remove-whitespace.git"
   },
   "bugs": {
-    "url": "https://github.com/utsubo/astro-remove-whitespace/issues"
+    "url": "https://github.com/utsuboco/astro-remove-whitespace/issues"
   },
-  "homepage": "https://github.com/utsubo/astro-remove-whitespace#readme",
+  "homepage": "https://github.com/utsuboco/astro-remove-whitespace#readme",
   "peerDependencies": {
     "astro": "^4.0.0"
   }
