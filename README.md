@@ -66,6 +66,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 MIT License - see LICENSE file for details
 
-## Credits
+## Maintainer
 
-Created and maintained by [Utsubo](https://www.utsubo.com) - A Technology-First creative studio.
+[Utsubo](https://www.utsubo.com) - A Technology-First creative studio.
+- [`twitter @utsuboco`](https://twitter.com/utsuboco)
