@@ -1,6 +1,6 @@
 {
   "name": "astro-remove-whitespace",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Astro integration that removes whitespace between HTML tags in build output",
   "main": "index.js",
   "type": "module",
