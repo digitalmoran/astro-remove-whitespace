@@ -1,0 +1,27 @@
+{
+  "name": "astro-remove-whitespace",
+  "version": "1.0.0",
+  "description": "Astro integration that removes whitespace between HTML tags in build output",
+  "main": "index.js",
+  "type": "module",
+  "keywords": [
+    "astro-integration",
+    "astro",
+    "optimization",
+    "whitespace",
+    "minification"
+  ],
+  "author": "Utsubo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/utsubo/astro-remove-whitespace.git"
+  },
+  "bugs": {
+    "url": "https://github.com/utsubo/astro-remove-whitespace/issues"
+  },
+  "homepage": "https://github.com/utsubo/astro-remove-whitespace#readme",
+  "peerDependencies": {
+    "astro": "^4.0.0"
+  }
+}
