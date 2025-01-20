@@ -49,7 +49,9 @@ export default function removeTagWhitespace() {
         };
 
         try {
-          await walkDir(dir.pathname);
+          let pathname = dir.pathname;
+          if (process.platform === 'win32') { pathname = pathname.replace('/', ''); }
+          await walkDir(pathname);
         } catch (error) {
           console.error('❌ Error in build hook:', error);
         }
