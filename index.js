@@ -10,10 +10,10 @@ export default function removeTagWhitespace() {
     name: 'astro-remove-whitespace',
     hooks: {
       'astro:build:done': async ({ dir }) => {
-        console.log('🧹 Removing whitespace between html closing tags');
+        console.log('🧹 Removing extra whitespace from markup');
 
         const removeWhitespace = (content) => {
-          return content.replace(/>\s+</g, '><');
+          return content.replace(/\s+/g, ' ').replace(/>\s+</g, '><');
         };
 
         // Process all HTML files

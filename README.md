@@ -1,6 +1,6 @@
 # Astro Remove Whitespace Plugin
 
-A simple Astro Plugin that removes unnecessary whitespace between HTML tags in your build output.
+A simple Astro Plugin that removes unnecessary whitespace including between HTML tags in your build output.
 
 ## Background
 
@@ -10,7 +10,7 @@ This plugin solves that issue by cleaning up the HTML output post-build.
 
 ## Features
 
-- Removes whitespace between HTML tags in build output
+- Removes extra whitespace including between HTML tags in build output
 - Preserves source code readability
 - Runs automatically after build completion
 - Minimal configuration required
